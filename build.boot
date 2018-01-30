@@ -7,7 +7,9 @@
   "Start production build."
   []
   (comp
+    (hoplon)
     (cljs)
+    (hoplon.boot-hoplon/prerender)
     (target :dir #{"dist"})))
 
 (deftask develop
