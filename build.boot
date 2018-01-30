@@ -7,7 +7,6 @@
   "Start production build."
   []
   (comp
-    (hoplon)
     (cljs)
     (target :dir #{"dist"})))
 
