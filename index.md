@@ -1,1 +1,1 @@
-{% include_relative target/index.html %}
+{% include index.html %}

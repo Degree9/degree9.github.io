@@ -9,7 +9,7 @@
   (comp
     (hoplon)
     (cljs)
-    (target)))
+    (target :dir #{"_includes"})))
 
 (deftask develop
   "Start local development."
