@@ -3,12 +3,17 @@
 
 (m/initialize)
 
-(deftask develop
-  "Start local development."
-  []
-  (m/project :develop true))
-
 (deftask build
   "Start production build."
   []
-  (m/project :build true))
+  (comp
+    (hoplon)
+    (cljs)
+    (target)))
+
+(deftask develop
+  "Start local development."
+  []
+  (comp
+    (watch)
+    (build)))
