@@ -3656,7 +3656,7 @@ sup, sub {
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: #FFF; }
+    color: #FFFFFF; }
     @media only screen and (min-width: 550px) {
       .header .site-title {
         margin: 0;
@@ -3710,7 +3710,7 @@ sup, sub {
         font-size: 35px; } }
 
 .down {
-  color: #FFF;
+  color: #000;
   position: absolute;
   bottom: 25px;
   width: 100%;
