@@ -1,1 +1,3 @@
-{% include_relative dist/index.html %}
+---
+layout: default
+---
