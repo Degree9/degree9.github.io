@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 html {
   line-height: 1.15;
   /* 1 */
@@ -3557,7 +3557,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #555;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 article, aside, figcaption, figure, footer, header, nav, section {
   display: block; }
@@ -3630,7 +3630,7 @@ sup, sub {
     top: 0; } }
 
 #particles-js {
-  background: #000000;
+  background: #FFFFFF;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -3698,10 +3698,10 @@ sup, sub {
     border: 2px solid #FFF;
     transition: all .7s; }
     .header-icons .icon:hover {
-      color: #000000;
+      color: #FFFFFF;
       background: #FFF; }
     .header-icons .icon:active {
-      color: #000000;
+      color: #FFFFFF;
       background: #FFF; }
     @media only screen and (min-width: 550px) {
       .header-icons .icon {
@@ -3733,9 +3733,9 @@ sup, sub {
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite; }
     .down .icon:hover {
-      color: #000000; }
+      color: #FFFFFF; }
     .down .icon:active {
-      color: #000000; }
+      color: #FFFFFF; }
 
 #about {
   width: 90%;
@@ -3786,7 +3786,7 @@ sup, sub {
   .user-projects h5 {
     margin: 0; }
   .user-projects li {
-    color: #000000;
+    color: #FFFFFF;
     font-size: 1.1rem; }
   .user-projects p {
     margin-right: 5px; }
@@ -3825,9 +3825,9 @@ sup, sub {
   width: 100px;
   margin: 10px 0px;
   padding: 5px;
-  color: #000000;
+  color: #FFFFFF;
   background-color: transparent;
-  border: 1px solid #000000;
+  border: 1px solid #FFFFFF;
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -3846,7 +3846,7 @@ sup, sub {
     transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
 
 .footer {
-  background: #000000;
+  background: #FFFFFF;
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
@@ -3858,6 +3858,6 @@ sup, sub {
     margin: 0;
     color: #FFF; }
     .footer a:hover {
-      color: #000000; }
+      color: #FFFFFF; }
     .footer a:active {
-      color: #000000; }
+      color: #FFFFFF; }
