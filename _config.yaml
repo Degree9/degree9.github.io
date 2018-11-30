@@ -1,6 +1,7 @@
 # Site settings
 title: degree9 / OPEN_SOURCE
 description: A collection of Open-Source projects by Degree9.
+logo: D9 Enterprise.png
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
